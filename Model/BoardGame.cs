@@ -28,7 +28,7 @@
         /// <summary>
         /// Maximum number of players that can play the game.
         /// </summary>
-        public int MaxNrOfPlayers { get; set; }
+        public int? MaxNrOfPlayers { get; set; }
 
         /// <summary>
         /// Minimum number of minutes needed to play the game.
@@ -38,7 +38,7 @@
         /// <summary>
         /// Maximum number of minutes needed to play the game.
         /// </summary>
-        public int MaxPlayingTime { get; set; }
+        public int? MaxPlayingTime { get; set; }
 
         /// <summary>
         /// Recommended age for playing the game.
